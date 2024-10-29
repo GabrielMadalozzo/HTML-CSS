@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="HTML.ICO.ico" type="image/x-icon">
+    <title>Formatação de Textos</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+        mark {background-color: magenta;}
+    </style>
+</head>
+<body>
+    <h1>Principais  Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase, temos um <b>termo em negrito</b> usando a tag &lt;B&gt; (não semântica)</p><!--Tag B é uma tag não semantica, apenas possui forma-->
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag &lt;STRONG&gt; (semântica)</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nessa frase, temos um <i>termo em itálico</i> usando a tag &lt;I&gt; (não semântica)</p>
+    <p>Nesta frase temos um <em>termo em ênfase</em> unsando a tag &lt;EM&gt; (semântica)</p>
+    <h2>Texto Marcado</h2>
+    <p>Podemos criar também <mark style="background-color: darkgreen;">um texto marcado</mark> usando a tag &lt;MARK&gt;</p>
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final</p>
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+    <h2>Texto Deletado</h2>
+    <p>Podemos marcar <del>um texto como excluido</del> para indicar que ele deve ser lido, mas não considerado</p>
+    <h2>Texto Inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois</p>
+    <p>Existe também o <u>sublinhado</u> com a tag &lt;U&gt; (não semântica)</p><!--Obsoleta-->
+    <h2>Texto Sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto Subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
+    <img src="data:image/jpeg;base64,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" alt="h2o">
+</body>
+</html>

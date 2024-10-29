@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste CSS Caixas</title>
+    <link rel="shortcut icon" href="midias/imagens/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(80, 77, 77);
+            text-align: justify;     
+            font-family: Arial, Helvetica, sans-serif; 
+            margin: auto;   
+        }
+        header {
+            background-color: white;
+            border-radius: 12px 2px;
+            margin: 10px;
+            padding: 5px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+        }
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+        }
+        section {
+            background-color: lightgray;
+            padding: 2px 5px 5px 5px;
+        }
+        section#assuntos {
+            background-color: white;
+        }
+        aside {
+            background-color: aqua;
+        }
+        footer {
+            text-align: center;
+            background-color: black;
+            color: white;
+            margin: 2px 10px;
+            border: dashed;
+        }
+        h1 {
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+        }
+        p#menu {
+            font-weight: bolder;
+            color: white;
+            font-style: italic;
+            background-color: grey;
+            width: 50px;
+            height: 30px;
+        }
+        a {
+            display: none;
+            text-decoration: none;
+        }
+        nav:hover > a {
+            display: block;
+            color: green;
+            font-weight: bolder;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        nav {
+            width: 50px;
+        }
+        nav > a:active {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <p id="menu">Menu</p>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius placeat maiores amet deleniti. Dolore fugit ipsum incidunt saepe perspiciatis iusto aliquam dolorum iste, assumenda, nobis, at ullam numquam dolores ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, officia architecto, unde mollitia perferendis eos eveniet modi corrupti blanditiis inventore itaque voluptatum laborum saepe perspiciatis! Mollitia eveniet voluptatum quo accusamus.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>

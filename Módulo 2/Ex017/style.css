@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body {
+    font-family: monospace;
+    /* Mediadas Absolutas
+    cm, mm, in(polegada), px (pixels), pt(ponto)
+    
+    Medidas Relativas 
+    em(altura do M maiusculo) recomendado pela W3C
+
+    16px = 1em
+    */
+    
+    font-size: 1em;
+    font-weight:bold;
+    font-style: italic;
+    text-decoration: underline;
+    height: 100px;
+    background-image: linear-gradient(to top, white, blue);
+    background-attachment: fixed;
+}
+h1 {
+    font: italic bolder 3em monospace;
+}

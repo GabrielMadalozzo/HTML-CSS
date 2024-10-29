@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        header {
+            background-image: linear-gradient(to bottom , aqua, lightgreen);
+            height: 150px;
+            padding: 40px 0px 20px 0px;
+            margin: auto;
+        }
+
+        header > h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3em;
+            text-align: center;
+            margin: auto;
+            font-weight: bold;
+            padding-bottom: 30px;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+        }
+
+        header > p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+            margin: auto;
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: bold;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+        }
+
+        nav {
+            background-color: lightgreen;
+            color: white;
+            padding: 10px 10px 10px 10px;
+            text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.158);
+        }
+
+        nav > a {
+            font-size: 1.3em;
+            color: green;
+            text-decoration: none;
+            font-weight: bold;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.185);
+            transition-duration: 0.5s;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        nav > a:hover {
+            background-color: aqua;
+            color: rgb(70, 72, 194);
+        }
+
+        body {
+            background-color: grey;
+        }
+
+        main {
+            background-color: white;
+            max-width: 800px;
+            min-width: 320px;
+            margin: auto;
+            border-radius: 10px;
+            padding: 3px 20px 20px 20px;
+            margin-top: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+        }
+
+        main p {
+            text-align: justify;
+            text-indent: 30px;
+            line-height: 2em;
+            margin: 15px;
+        }
+
+        aside {
+            background-color: blueviolet;
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+
+        aside h3 {
+            font-weight: bold;
+            background-color: darkgreen;
+            color: white;
+            padding: 10px;
+            margin: -10px -10px 0px -10px;
+            border-radius: 10px 10px 0px 0px;
+
+        }
+
+        aside a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+
+        aside a:hover {
+            background-color: aqua;
+            color: black;
+            border-radius: 5px;
+            text-decoration: underline;
+        }
+
+        aside ul {
+            columns: 2;
+            list-style-type: '\2714\00A0\00A0';
+            list-style-position: inside;
+            padding: 10px;
+            line-height: 2em;
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curiosidades de Tecnologia</h1>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Notícias</a>
+        <a href="#">Curiosidades</a>
+        <a href="#">Fale Conosco</a>
+    </nav>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid culpa corporis quidem, sequi laboriosam cumque necessitatibus nisi, aperiam officia ab odit sunt quisquam autem recusandae corrupti natus neque, soluta quia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veritatis hic quo fugiat quaerat unde doloremque nemo voluptates. Nisi nesciunt iure aspernatur, quas saepe laboriosam magni temporibus totam aliquam labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vel similique cum, dicta quasi eveniet consequuntur aliquam sunt quae harum. Eius saepe non nesciunt culpa quidem iste accusantium inventore eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta vero laborum? Odio, laboriosam ratione animi ex distinctio obcaecati, ipsam tempora necessitatibus perferendis eligendi veniam incidunt voluptate iure corporis ut!</p>
+
+        <picture>
+            <source media="(max-width: 700px )" srcset="imagens/irina-blok-pq.jpg" type="image/jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina-blok">
+        </picture>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid culpa corporis quidem, sequi laboriosam cumque necessitatibus nisi, aperiam officia ab odit sunt quisquam autem recusandae corrupti natus neque, soluta quia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veritatis hic quo fugiat quaerat unde doloremque nemo voluptates. Nisi nesciunt iure aspernatur, quas saepe laboriosam magni temporibus totam aliquam labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vel similique cum, dicta quasi eveniet consequuntur aliquam sunt quae harum. Eius saepe non nesciunt culpa quidem iste accusantium inventore eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta vero laborum? Odio, laboriosam ratione animi ex distinctio obcaecati, ipsam tempora necessitatibus perferendis eligendi veniam incidunt voluptate iure corporis ut!</p>
+        <br><br>
+        <aside>
+            <h3>Quer aprender mais?</h3><br>
+
+            <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
+            </p>
+
+            <ul>
+                <li><abbr title="bolo de copo">1.5 - Cupcake</abbr></li>
+                <li><abbr title="rosquinha">1.6 - Donut</abbr></li>
+                <li><abbr title="bomba">3.0 - Eclair</abbr></li>
+                <li><abbr title="iogurte congelado">2.2 - Froyo</abbr></li>
+                <li><abbr title="biscoito de gengibre">2.3 - Gingerbread</abbr></li>
+                <li><abbr title="favo de mel">3.0 - Honeycomb</abbr></li>
+                <li><abbr title="sanduíche de sorvete">4.0 - Ice Cream Sandwich</abbr></li>
+                <li><abbr title="jujuba">4.1 - Jelly Bean</abbr></li>
+                <li><abbr title="kitkat">4.4 - KitKat</abbr></li>
+                <li><abbr title="pirulito">5.0 - Lolipop</abbr></li>
+                <li><abbr title="marshmallow">6.0 - Marshmallow</abbr></li>
+                <li><abbr title="torrone">7.0 - Nougat</abbr></li>
+                <li><abbr title="oreo">8.0 - Oreo</abbr></li>
+                <li><abbr title="torta">9.0 - Pie</abbr></li>
+            </ul>
+
+            <p>Infelizmente, o <strong>Android Q</strong> não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
+
+            <p>Acesse aqui o site <a href="https://www.android.com/intl/en_uk/what-is-android/" target="_blank" rel="external">Android History</a> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
+
+        </aside>
+    </main>
+</body>
+</html>

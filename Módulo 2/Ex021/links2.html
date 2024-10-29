@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links 2</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+        body {
+            background-color: aquamarine;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1 {
+            font-family: "Jacquarda Bastarda 9", serif;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+        a:hover {
+            color: rgb(0, 255, 55);
+            text-decoration: underline;
+            background-color: azure;
+            width: 100px;
+        }
+        a::after {
+            content: ' [link]';
+            color: grey;
+        }
+        a::before {
+            content: '->>';
+            color: grey;
+        }
+        .diferent:hover{
+            background-color: palevioletred;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" class="diferent">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site Curso em Vídeo</a></li>
+    </ul>
+</body>
+</html>

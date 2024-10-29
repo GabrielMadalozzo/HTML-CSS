@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão M1</title>
+    <link rel="shortcut icon" href="HTML.ICO.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Podemos inserir diversos tipos de titúlos de acordo com os h1,h2,h3...</h1>
+    <h2>Esse é um titulo inserido com h2</h2>
+    <h3>Esse é um titúlo inserido com h3</h3>
+    <hr>
+    <br>
+    <p>Acabei de utilizar uma linha horizontal e uma quebra de linha usando hr e br</p>
+    <p>Inseri esse parágrafo com a tag p</p>
+    <p>Agora vou usar ul para inserir uma lista, citando todas as tags que eu aprendi até o momento</p>
+    <ul type="square">
+        Lista de Tags
+        <li><strong>Negrito = letra forte</strong></li>
+        <li><em>Itálico=  não sei definir kkkkk</em></li>
+        <li><small>Letra pequena</small></li>
+        <li><Big>Letra grande = porém tag em vermelho significa que está se tornando obsoleta</Big></li>
+        <li><ins>Sublinhado = destaque para palavra</ins></li>
+        <li><del>Letra riscado = para ler mas desconsiderar</del></li>
+        <li>&trade; &reg; &copy;= tags de verificação, existe uma lista delas, não decorei</li>
+        <li><address>Rua faveiro, 1021 - Fazenda Rio Grande - PR</address></li>
+        <li><code>Usado para códigos fonte ou links</code></li>
+        <li><mark>Marca texto</mark></li>
+        <li>Sup para sobrecrever ex: x<sup>2</sup>+10</li>
+        <li>sub para subscrever ex: H<sub>2</sub>O</li>
+        <li><q>Citações em aspas simples</q></li>
+        <li>Citações em bloco como de artigos fica o exemplo a baixo</li><br>
+        <p><blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit architecto placeat assumenda modi pariatur fugit facilis repellendus, dicta nulla adipisci, voluptate quaerat aliquid voluptates sunt consectetur, reprehenderit sapiente laborum suscipit?</blockquote></p>
+        <li>Abreviações <abbr title="Usamos tag abbr">HTML</abbr></li>
+    </ul>
+        <h2>Podemos utilizar também as listas ordenadas</h2>
+        <ol>
+            Compras no supermercado
+            <li>Leite</li>
+            <li>Ovos</li>
+            <li>Pão</li>
+            <li>Margarina</li>
+            <li>Batata</li>
+        </ol>
+        <h2>Temos também as listas de definição</h2>
+        <dl>
+            <dt>Html</dt>
+            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt sunt fugit nostrum consequatur corrupti. Sapiente iusto obcaecati vel dolores sequi molestias, aliquid voluptate impedit culpa quod accusamus dicta blanditiis perspiciatis.</dd>
+            <dt>CSS</dt>
+            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quis, eligendi reprehenderit optio voluptas accusamus earum vel magni beatae, blanditiis distinctio cum odio ipsam deserunt ipsum, dolorem corporis. Voluptate, ducimus!</dd>
+            <dt>Javascript</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatem neque nemo distinctio ad officia et? Labore, nulla non ducimus minima debitis molestiae dolore voluptatibus doloribus atque quas accusantium corrupti.</dd>
+        </dl>
+            <h2>Além disso podemos utilizar mídias</h2>
+            <p>Primeiro  vamos usar uma imagem simples</p>
+            <img src="img-1000.jpeg" alt="Imagem simples" width="300">
+            <p>Caraca que maluco lindo, não tem como,, pelo amor de <strong>Deus</strong></p>
+            <br>
+            <p>Agora vamos utilizar uma imagem dinâmica, que se adapta de acordo com a largura do seu desktop, PC, tablet ou celular</p>
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+                <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+                <img src="imagens/foto-g.png" alt="imagem dinamica">
+            </picture>
+            <p>Agora vamos colocar um aúdio em nosso site, eu vou colocar apenas em um formato, mas saiba que podemos colocar vários, pois cada navegador é compativel com determinados formatos, e para isso usamos o &lt;source&gt;</p>
+            <audio src="mídias/Shawn Mendes, Justin Bieber - Monster.mp3" autoplay controls loop preload="metadata"></audio>
+            <p>Podemos inserir também videos aos nossos site, com hospedagem própria ou externa</p>
+            <ul>
+                <li><strong>Própria</strong></li>
+                <video src="mídias/Meu--Video.mp4" controls preload="metadata" width="300"></video><br>
+                <p>Temos o parametro poster para implementar um tumb</p>
+                <br>
+                <li><strong>Externa</strong></li>
+                <iframe width="300" height="315" src="https://www.youtube.com/embed/Ldl_CvMGmEA?si=RV-jhx-ZAILCCRln" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </ul>
+            <p>E para finaliza o básico do básico de HTML, temos a <strong>navegação</strong></p>
+            <p>Existe a navegação interna para abas de um mesmo site</p>
+            <p>E existe a navegação externas que direcionam o usuário para outros sites</p>
+
+            <ul>
+                Navegação externa
+                <li><a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/" target="_blank" rel="external"><code>Clique aqui </code></a> para ser direcionado para o meu site</li>
+                <br>
+                Navegação interna
+                <li>
+                    <p><a href="pag02.html" target="_self" rel="next"><code>Clique aqui</code></a> para ir para próxima página</p>
+                </li>
+            </ul>
+</body>
+</html>
