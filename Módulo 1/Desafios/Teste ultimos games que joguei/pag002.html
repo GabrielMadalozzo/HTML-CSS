@@ -5,48 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="HTML.ICO.ico" type="image/x-icon">
     <title>Página 2</title>
-    <style>
-        body {
-            background-attachment: fixed;
-            background-image: linear-gradient(to top, aqua, rgb(0, 255, 98));
-            font-family: monospace;
-            text-align: justify;
-        }
-        h1 {
-            text-align: center;
-            font-weight: bolder;
-            text-shadow: 1px 1px 1px rgb(223, 79, 79);
-        }
-        h2 {
-            background-color: gold;
-            width: 200px;
-            font-style: oblique;
-        }
-        .large {
-            width: 250px;
-        }
-        h2#large {
-            width: 340;
-        }
-        main {
-            background-color: aliceblue;
-            padding: 10px;
-            text-align: center;
-            width: 200px;
-            border-radius: 20px;
-            margin: auto;
-            box-shadow: 10px 10px 10px black;
-        }
-        p {
-            text-indent: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2 class="large"><big>Horizon Zero Dawn</big></h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt pariatur deleniti consequuntur aperiam laudantium, quasi unde <strong><small>dolore labore</small></strong> non magnam sit numquam ducimus, sint autem maiores eaque reiciendis recusandae quo.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta maiores, vel amet tenetur, voluptatum iste laborum exercitationem mollitia temporibus <em><code><a href="https://www.playstation.com/pt-br/games/horizon-zero-dawn/" target="_blank" rel="externo">Horizon Zero Dawn</a></code></em> reprehenderit iure nesciunt asperiores cum accusamus iusto autem vero aperiam cumque?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minima sed repellendus, repudiandae culpa, facilis debitis impedit, voluptate atque tempora deserunt fuga laborum illo! Dolor iste minus suscipit officiis omnis?</p>
-    <img src="data:image/webp;base64,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" alt="Imagem Horizon Zero Dawn">
+    <main>
+        <h2><big>Horizon Zero Dawn</big></h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt pariatur deleniti consequuntur aperiam laudantium, quasi unde <strong><small>dolore labore</small></strong> non magnam sit numquam ducimus, sint autem maiores eaque reiciendis recusandae quo.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta maiores, vel amet tenetur, voluptatum iste laborum exercitationem mollitia temporibus <em><code><a href="https://www.playstation.com/pt-br/games/horizon-zero-dawn/" target="_blank" rel="externo">Horizon Zero Dawn</a></code></em> reprehenderit iure nesciunt asperiores cum accusamus iusto autem vero aperiam cumque?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minima sed repellendus, repudiandae culpa, facilis debitis impedit, voluptate atque tempora deserunt fuga laborum illo! Dolor iste minus suscipit officiis omnis?</p>
+<aside class="img">
+
+</aside>
+<br><br><br>
+        <aside>
+            <article>
+
+            </article>
+        </aside>
+    </main>
 </body>
 </html>

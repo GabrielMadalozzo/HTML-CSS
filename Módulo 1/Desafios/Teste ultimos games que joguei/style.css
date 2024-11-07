@@ -77,6 +77,47 @@ p#list {
     padding: 10px;
  }
 
+ main blockquote {
+   text-indent: 15px;
+   text-align: left;
+   width: 400px;
+   font-size: 0,9em;
+ }
+
+ main a {
+   font-family: var(--font-destaque);
+   text-decoration: none;
+   background-color: white;
+   font-weight: bold;
+ }
+
+ main a:hover {
+   text-decoration: underline;
+   font-style: italic;
+ }
+
+ main strong {
+   font-family: var(--font-destaque);
+   font-weight: normal;
+   font-size: 1.2em;
+ }
+
+ footer {
+   background-color: rgb(48, 233, 48);
+   padding: 3px 10px;
+   text-align: right;
+ }
+
+ footer a {
+   text-decoration: none;
+   text-align: right;
+ }
+
+ footer span {
+   font-size: 1.8em;
+   
+ }
+
  main div.imagem {
     height: 200px;
     width: 400px;
@@ -85,4 +126,61 @@ p#list {
     background-image: url(https://img.elo7.com.br/product/zoom/1EAAE02/big-poster-gamer-god-of-war-2018-tamanho-90x-0-cm-lo041-decoracao-nerd.jpg);
     background-size: contain;
     margin: auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.185);
+ }
+
+ main div.imagem#miles {
+   height: 200px;
+    width: 400px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    background-image: url(https://assetsio.gnwcdn.com/digitalfoundry-2020-marvels-spider-man-miles-morales-tech-analysis-1604663057480.jpg?width=690&quality=75&format=jpg&auto=webp);
+    background-size: cover;
+    margin: auto;
+ }
+
+ main div.imagem#blood {
+   height: 200px;
+   width: 400px;
+   background-color: lightgrey;
+   border-radius: 10px;
+   background-image: url(https://image.api.playstation.com/cdn/UP9000/CUSA00900_00/FREE_CONTENT6qDgKyGhoAeK4mFrsFX3/PREVIEW_SCREENSHOT4_73423.jpg);
+   background-size: cover;
+   background-position: center center;
+ }
+
+ aside.img {
+   margin-bottom: 30px;
+   background-image: url(https://i.pinimg.com/736x/2e/7a/d0/2e7ad0e4fae8ea4f3f405e4f572d0c2d.jpg);
+   background-position: center center;
+   background-size: cover;
+   border-radius: 10px;
+   height: 200px;
+   width: 400px;
+   margin: auto;
+
+
+ }
+
+ aside {
+   width: 750px;
+   height: 400px;
+   background-color: lightgray;
+   position: relative;
+   margin: auto;
+ }
+
+ article {
+   position: absolute;
+   background-color: aqua;
+   background-size: cover;
+   width: 300px;
+   height: 150px;
+   max-width: 300px;
+   max-height: 150px;
+   margin: auto;
+   border-radius: 10px;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
  }
